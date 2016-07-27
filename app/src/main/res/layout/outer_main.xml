@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.qzzhu.outerlayout.OuterLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="center"
+        android:textColor="#00ff00"
+        android:gravity="center"
+        android:contentDescription="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal|top"
+        android:text="top"
+        android:contentDescription="top"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:layout_gravity="center_horizontal|bottom"
+        android:text="bottom"
+        android:contentDescription="bottom"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="77dp"
+        android:layout_height="match_parent"
+        android:id="@+id/editText2"
+        android:layout_gravity="left|center_vertical"
+        android:text="left"
+        android:contentDescription="left"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="71dp"
+        android:layout_height="match_parent"
+        android:id="@+id/editText3"
+        android:layout_gravity="right|center_vertical"
+        android:text="right"
+        android:contentDescription="right"
+        android:gravity="center"
+        />
+
+</com.example.qzzhu.outerlayout.OuterLayout>
